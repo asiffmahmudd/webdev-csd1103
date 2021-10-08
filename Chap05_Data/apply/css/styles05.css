@@ -1,4 +1,4 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by: Asif Mahmud, 10.08.2021  */
 
 /* Style for body specifies a background color */
 body {
@@ -10,11 +10,12 @@ img {
 	box-shadow: .5em .5em .5em #404040;
 	margin: 1%;
 	text-align: center;
+	max-width: 100%;
 }
 
 /* Style for the container centers the page and specifies the width */
 #container {
-	width: 800px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }

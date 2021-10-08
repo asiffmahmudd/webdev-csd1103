@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Intro</title>
+		<meta charset="utf-8">
+	</head> 
+	<body>
+		<p>Asif Mahmud</p>
+		<p>12.09.2021</p>
+		<p>Front-End Web Development 1</p>
+		<p>Amr Abdallah</p>
+		<hr>
+		
+		<p>Graduate Certificate</p>
+		<p>I have created basic web pages for learning web development</p>
+		<p>I love to play soccer</p>
+		<hr>
+		
+		<p>I am still tryin to adapt to these new platform. So pardon my mistakes</p>
+		
+	</body>
+</html>

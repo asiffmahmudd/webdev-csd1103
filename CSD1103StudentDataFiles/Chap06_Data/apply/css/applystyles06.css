@@ -1,4 +1,4 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by: Asif Mahmud, 10-15-2021 */
 
 /* Style for body specifies a background color */
 body {
@@ -42,4 +42,22 @@ footer {
 	font-size: .70em;
 	text-align: center;
 	margin-top: 2em;
+}
+
+/* Styles for tablet layout */
+
+@media screen and (min-width: 481px) {
+	img{
+		width: 45%;
+	}
+
+}
+
+/* Styles for Desktop layout */
+
+@media screen and (min-width: 966px) {
+	img{
+		width: 30%;
+	}
+	
 }

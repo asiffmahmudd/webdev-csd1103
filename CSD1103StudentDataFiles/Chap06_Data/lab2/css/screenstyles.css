@@ -1,4 +1,4 @@
-/* Style sheet created by: Asif Mahmud, 10.08.2021 */
+/* Style sheet created by: Asif Mahmud, 10.15.2021 */
 
 /* Style for body specifies a background color */
 body {
@@ -82,4 +82,112 @@ footer {
 	font-size: .70em;
 	text-align: center;
 	margin-top: 2em;
+}
+
+/* styles for pseudo classes */
+nav li a:link {
+	color: #FFFFFF;
+}
+nav li a:hover {
+	color: #CCFFCC;
+	font-size: 1.5em;
+}
+
+/* desktop view hide */
+.desktop{
+	display: none;
+}
+
+/* Styles for tablet layout */
+
+@media screen and (min-width: 481px) {
+	/* styles for image width */
+	img {
+		width: 80%;
+	}
+
+	/* styles for nav li */
+	nav li {
+		display: inline;
+		float: left;
+		margin-left: 1%;
+		margin-right: 1%;
+		padding-left: 0;
+		padding-right: 0;
+		width: 18%;
+	}
+
+	/* styles for main */
+	main {
+		clear: left;
+	}
+
+	/* styles for mobile display hide  */
+	.mobile {
+		display: none;
+	}
+
+	/* styles for desktop */
+	.desktop {
+		display: inline;
+	}
+}
+
+/* Styles for Desktop layout */
+
+@media screen and (min-width: 769px) {
+
+	/* Style specifies a gradient for the body element */
+    body{
+        background: -moz-linear-gradient(#FFFFFF, #FFFF99); /* Firefox */
+        background: -o-linear-gradient(#FFFFFF, #FFFF99); /* Opera */
+        background: -webkit-linear-gradient(#FFFFFF, #FFFF99); /* Chrome, Safari */
+        background: linear-gradient(#FFFFFF, #FFFF99); 
+        background-attachment: fixed;
+    }
+
+	/* styles for container */
+	#container {
+		width: 80%;
+	}
+
+	/* styles for image */
+	img {
+		width: 60%;
+	}
+
+	/* styles for nav ul */
+	nav ul {
+		margin: 0;
+		padding-left: 0.50%;
+		padding-right: 0.50%;
+	}
+
+	/* styles for nav li */
+	nav li {
+		border-radius: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+		width: 20%;
+		white-space: nowrap;
+	}
+
+	/* styles for li a */
+	nav li a {
+		display: inline-block;
+		padding: 0.7em;
+		font-size: 1.25em;
+	}
+
+	/* styles for main */
+	main {
+		border: none;
+		border-radius: 1em;
+		box-shadow: 1em 1em 1em #331400;
+		margin-top: 1em;
+	}
+
+
+	
 }

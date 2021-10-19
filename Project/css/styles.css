@@ -1,0 +1,217 @@
+/* ---------------Common styles------------------- */
+
+body, *{
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #242424;
+}
+
+.mt-05{
+    margin-top: 0.5em;
+}
+
+.m-1{
+    margin: 1em;
+}
+
+.p-1{
+    padding: 1em;
+}
+
+.mt-1{
+    margin-top: 1em;
+}
+
+.mb-1{
+    margin-bottom: 1em;
+}
+
+.mb-05{
+    margin-bottom: 0.5em;
+}
+
+.pt-05{
+    padding-top: 0.5em;
+}
+
+.pt-1{
+    padding-top: 1em;
+}
+
+.pb-1{
+    padding-bottom: 1em !important;
+}
+
+.pb-05{
+    padding-bottom: 0.5em;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-33{
+    width: 33.33%;
+}
+
+.w-25{
+    width: 25%;
+}
+
+.text-dark{
+    color: #242424;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.bg-dark{
+    background-color: #242424;
+}
+
+.bg-light{
+    background-color: aliceblue;
+}
+
+.text-light{
+    color: aliceblue;
+}
+
+.div-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/* ----------------------------header------------------------------*/
+
+#container{
+    width: 100%;
+}
+
+header .logo{
+    display: block;
+    width: 200px !important;
+}
+
+.dropdown:hover .dropdown-options{
+    display: block;
+}
+
+.dropdown-options{
+    display: none;
+}
+
+.dropdown-options ul{
+    border: 2px solid #242424;
+}
+
+nav{
+    
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul.nav-option-container li{
+    padding: 10px;
+    background-color: #242424;
+    text-align: center;
+    margin-top: 5px;
+}
+
+nav ul.nav-option-container li a{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+nav ul.nav-option-container li:hover {
+    background-color: aliceblue;
+}
+
+nav ul.nav-option-container li:hover, nav ul.nav-option-container li:hover a{
+    color: #242424;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+/*---------------------------main ------------------------------*/
+
+.cover-img{
+    width: 100%;
+    max-height: 450px;
+}
+
+.cover-container{
+    position: relative;
+
+}
+
+.cover-text{
+    font-size: 1em;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    width: 80%;
+    text-align: left;
+    color: aliceblue;
+}
+
+.featured-item-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-item{
+    width: 50%;
+}
+
+.featured-item .item{
+    margin: 0.5em;
+    padding: 1em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.featured-item-img{
+    height: 150px;
+}
+
+.welcome-item img{
+    max-height: 300px;
+}
+
+.welcome-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-item .item{
+    /* width: 50%; */
+    align-items: center;
+    display: flex;
+    padding: 0.5em;
+}
+
+.welcome-item.item-2{
+    flex-direction: column-reverse;
+}

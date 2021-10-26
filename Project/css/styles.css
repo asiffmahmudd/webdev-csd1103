@@ -91,6 +91,18 @@ a{
     width: 25%;
 }
 
+.rounded{
+    border-radius: 4px;
+}
+
+.rounded-circle{
+    border-radius: 50%;
+}
+
+.rounded-lg{
+    border-radius: 7px;
+}
+
 .text-dark{
     color: #242424;
 }
@@ -277,6 +289,14 @@ nav ul.nav-option-container li:hover, nav ul.nav-option-container li:hover a{
     height: 150px;
 }
 
+.testimonials .card-img{
+    height: 150px;
+    width: 150px;
+}
+
+main{
+    padding: 1em;
+}
 
 /*------------------- footer -------------------*/
 
@@ -327,7 +347,7 @@ footer{
         font-size: 1.7em;
     }
     main{
-        padding: 1em;
+        padding: 2em;
     }
 }
 

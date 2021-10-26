@@ -103,6 +103,10 @@ a{
     border-radius: 7px;
 }
 
+.d-flex{
+    display: flex;
+}
+
 .text-dark{
     color: #242424;
 }
@@ -348,7 +352,7 @@ footer{
     }
     main{
         padding: 2em;
-    }
+    }   
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

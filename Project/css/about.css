@@ -3,7 +3,20 @@
 }
 
 hr{
-    background: red;
+    border-color: rgb(255, 255, 255);
+}
+
+.testimonials .card-img{
+    height: 70px;
+    width: 70px;
+}
+
+.desktop{
+    display: none;
+}
+
+.tablet{
+    display: none;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -18,6 +31,13 @@ hr{
     .about-section .item{
         width: 50%;
     }
+    .desktop{
+        display: none;
+    }
+    
+    .tablet{
+        display: none;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -29,15 +49,41 @@ hr{
         margin-left: 2em;
         margin-top: 0;
     }
+    .testimonials .card-img{
+        height: 150px;
+        width: 150px;
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
     .about-section {
         display: flex;
     }
     .about-section .item-2{
         margin-left: 2em;
         margin-top: 0;
+    }
+    .testimonials .card-img{
+        height: 150px;
+        width: 150px;
     }
 }

@@ -306,6 +306,14 @@ footer{
     font-size: 11px;
 }
 
+.desktop{
+    display: none;
+}
+
+.tablet{
+    display: none;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .cover-img{
@@ -348,10 +356,16 @@ footer{
     main{
         padding: 2em;
     }   
+    .tablet{
+        display: block;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .desktop{
+        display: block;
+    }
     .top-header{
         padding-left: 1em;
         padding-right: 1em;

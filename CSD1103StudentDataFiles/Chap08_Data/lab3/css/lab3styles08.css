@@ -1,4 +1,9 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by: Asif Mahmud,  */
+
+*{
+	padding: 0;
+	margin: 0;
+}
 
 /* Style for the body element */
 body {
@@ -7,12 +12,53 @@ body {
     background: -moz-linear-gradient(white, yellow);
     background: linear-gradient(white, yellow); 
 	background-attachment: fixed;
+	padding: 2em;
 }
 
 /* Style for the container element */
 #container {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/* styles for forms */
+label, input{
+	display: block;
+}
+
+ul li input, ul li label{
+	display: inline-block;
+}
+
+.form-control{
+	margin-bottom: 1em;
+}
+
+#file, .radio-btn{
+	margin-top: 0.5em;
+}
+
+ul li{
+	display: inline;
+	margin-left: 1em;
+}
+
+input#file {
+    width: 300px;
+    background: #aeb18e;
+    color: #aeb18e;
+}
+
+input#file::file-selector-button {
+    float: right;
+    margin: 0;
+    font-weight: bold;
+    border: 1px solid;
+    background: #aeb18e;
+}
+
+ul li:first-child{
+	margin-left: 0;
 }
 
 /* Style for the footer element */

@@ -12,6 +12,32 @@ body {
 	margin-right: auto;
 }
 
+/* Style for the table element */
+table {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the tr,th,td element */
+table, tr, th, td {
+	border-collapse: collapse;
+	border: solid 0.1em #000000;
+	padding: 1em;
+}
+
+/* Style for the td element */
+td {
+	text-align: center;
+}
+
+/* Style for the caption element */
+caption {
+	font-size: 2em;
+	padding: 1em;
+	margin-top: 1em;
+}
+
 /* Style for the footer element */
 footer {
 	font-size: .70em;

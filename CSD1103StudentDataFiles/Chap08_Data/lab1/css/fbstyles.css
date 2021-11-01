@@ -117,6 +117,14 @@ aside {
 	padding: 1em;
 }
 
+input, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+label {
+	display: block;
+}
+
 /* Styles for tablet layout */
 
 @media screen and (min-width: 481px) {
@@ -162,6 +170,22 @@ aside {
 		background-color: #FFFFFF;
 		box-shadow: 1em 1em 1em #000000;
 		border-radius: 8em;
+	}
+	table, th, td {
+		border: solid 0.1em #FF6600;
+		border-collapse: collapse;
+		padding: 1em;
+	}
+	caption {
+		font-size: 1.5em;
+		padding-bottom: 1em;
+	}
+	input, textarea {
+		display: block;
+		margin-bottom: 1em;
+	}
+	label {
+		display: block;
 	}
 }
 
@@ -216,5 +240,11 @@ aside {
 		width: 25%;
 		background-color: #FF6600;
 		color: #FFFFFF;
+	}
+	table {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
 	}
 }

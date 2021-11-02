@@ -125,6 +125,16 @@ label {
 	display: block;
 }
 
+.video {
+	text-align: center;
+	padding: 1em;
+}
+video {
+	border: 0.2em solid #FF6600;
+	height: auto;
+	max-width: 100%;
+}
+
 /* Styles for tablet layout */
 
 @media screen and (min-width: 481px) {

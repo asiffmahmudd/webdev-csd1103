@@ -148,6 +148,7 @@ video{
     border: 0.5em ridge #FFFFFF;
     height: auto;
     max-width: 100%;
+    margin-top: 1em;
 }
 
 /* Media query for tablet viewport targets screen size with a minimum width of 660px. */

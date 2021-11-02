@@ -77,6 +77,11 @@ main {
 	background-color: #FFFFFF;
 }
 
+/* centering the audio element */
+.sound{
+	text-align: center;
+}
+
 /* Style for the footer specifies font size, text alignment, and top margin */
 footer {
 	font-size: .70em;

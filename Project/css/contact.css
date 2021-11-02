@@ -63,6 +63,12 @@ label{
     margin-left: 0;
 }
 
+fieldset{
+    border-color: #80808038;
+    background-color: ghostwhite;
+    border-radius: 1em;
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 620px) {
     .contact .card {
@@ -83,7 +89,7 @@ label{
         display: flex;
         justify-content: center;
     }
-    form.mt-2 {
+    form {
         width: 550px;
     }
     .contact h2{
@@ -104,7 +110,7 @@ label{
         display: flex;
         justify-content: center;
     }
-    form.mt-2 {
+    form {
         width: 550px;
     }
     .contact h2{

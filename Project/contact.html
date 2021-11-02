@@ -22,18 +22,18 @@
 
                     <nav class="p-1">
                         <ul class="nav-option-container">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="team.html">Our Team</a></li>
-                            <li><a href="specials.html">Specials</a></li>
-                            <li><a href="training.html">Training</a></li>
-                            <li><a href="media.html">Media</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <div class="dropdown"><li><a>Reports</a></li>
+                            <a href="about.html"><li>About</li></a>
+                            <a href="team.html"><li>Our Team</li></a>
+                            <a href="specials.html"><li>Specials</li></a>
+                            <a href="training.html"><li>Training</li></a>
+                            <a href="media.html"><li>Media</li></a>
+                            <a href="contact.html"><li>Contact</li></a>
+                            <div class="dropdown"><li>Reports</li></a>
                                 <ul class="dropdown-options">
-                                    <li><a href="">Option 1</a></li>
-                                    <li><a href="">Option 2</a></li>
-                                    <li><a href="">Option 3</a></li>
-                                    <li><a href="">Option 4</a></li>
+                                    <a href=""><li>Option 1</li></a>
+                                    <a href=""><li>Option 2</li></a>
+                                    <a href=""><li>Option 3</li></a>
+                                    <a href=""><li>Option 4</li></a>
                                 </ul>
                             </div>
                         </ul>
@@ -55,53 +55,56 @@
                 <h2 class="mt-05">Feel free to contact us completing the form below</h2>
 
                 <div class="form-container">
-                    <form class="mt-2">
-                        <div class="form-control">
-                            <label for="fName">First Name:</label>
-                            <input type="text" name="fName" id="fName" placeholder="First Name" required>
-                        </div>
-                        <div class="form-control">
-                            <label for="lName">Last Name:</label>
-                            <input type="text" name="lName" id="lName" placeholder="Last Name" required>
-                        </div>
-                        <div class="form-control">
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" id="email" placeholder="Email" required>
-                        </div>
-                        <div class="form-control">
-                            <label for="phone">Phone: </label>
-                            <input type="number" id="phone" name="phone" placeholder="Phone" required>
-                        </div>
-                        <div>
-                            <label for="date">Birthday: </label>
-                            <input type="date" name="date" id="date">
-                        </div>
-                        <div class="form-control mt-05 mb-05">
-                            <strong>I would like more information about:</strong>
-                            <ul>
-                                <li><input type="checkbox" name="Drills" id="Drills" value="Drills" class="check-item">Drills</li>
-                                <li><input type="checkbox" name="Employee Training" id="Employee Training" value="Employee Training" class="check-item">Employee Training</li>
-                                <li><input type="checkbox" name="Benefits" id="Benefits" value="Benefits" class="check-item">Benefits</li>
-                                <li><input type="checkbox" name="Other" id="Other" value="Other" class="check-item">Other</li>
-                            </ul>
-                        </div>
-                        <div class="form-control">
-                            <label for="source">Source of information:</label>
-                            <select name="source" id="source">
-                                <option value="ad">Advertisement</option>
-                                <option value="friend">Official Site</option>
-                                <option value="google">Google</option>
-                                <option value="social">Social Media</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        <div class="form-control">
-                            <label for="questions">A brief description about your query:</label>
-                            <textarea id="questions" name="questions" placeholder="Description"></textarea>
-                        </div>
-                        <button type="submit" id="submit" value ="Submit">Submit</button>
-                        <button type="reset" id="reset" value="Reset Form">Reset</button>
-                    </form>
+                    <fieldset class="mt-2">
+                        <legend><b>Contact Form</b></legend>
+                        <form>
+                            <div class="form-control">
+                                <label for="fName">First Name:</label>
+                                <input type="text" name="fName" id="fName" placeholder="First Name" required>
+                            </div>
+                            <div class="form-control">
+                                <label for="lName">Last Name:</label>
+                                <input type="text" name="lName" id="lName" placeholder="Last Name" required>
+                            </div>
+                            <div class="form-control">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-control">
+                                <label for="phone">Phone: </label>
+                                <input type="number" id="phone" name="phone" placeholder="Phone" required>
+                            </div>
+                            <div>
+                                <label for="date">Birthday: </label>
+                                <input type="date" name="date" id="date">
+                            </div>
+                            <div class="form-control mt-05 mb-05">
+                                <strong>I would like more information about:</strong>
+                                <ul>
+                                    <li><input type="checkbox" name="Drills" id="Drills" value="Drills" class="check-item">Drills</li>
+                                    <li><input type="checkbox" name="Employee Training" id="Employee Training" value="Employee Training" class="check-item">Employee Training</li>
+                                    <li><input type="checkbox" name="Benefits" id="Benefits" value="Benefits" class="check-item">Benefits</li>
+                                    <li><input type="checkbox" name="Other" id="Other" value="Other" class="check-item">Other</li>
+                                </ul>
+                            </div>
+                            <div class="form-control">
+                                <label for="source">Source of information:</label>
+                                <select name="source" id="source">
+                                    <option value="ad">Advertisement</option>
+                                    <option value="friend">Official Site</option>
+                                    <option value="google">Google</option>
+                                    <option value="social">Social Media</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-control">
+                                <label for="questions">A brief description about your query:</label>
+                                <textarea id="questions" name="questions" placeholder="Description"></textarea>
+                            </div>
+                            <button type="submit" id="submit" value ="Submit">Submit</button>
+                            <button type="reset" id="reset" value="Reset Form">Reset</button>
+                        </form>
+                    </fieldset>
                 </div>
                 
 

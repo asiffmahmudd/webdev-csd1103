@@ -192,8 +192,6 @@ form ul {
     /* Style specifies to display the tablet class */
     .tablet{
         display: block;
-        margin-top: -3em;
-        margin-bottom: -1em;
     }
     
     /* Style for image element contained within the main article element */

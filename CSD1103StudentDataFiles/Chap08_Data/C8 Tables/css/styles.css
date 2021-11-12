@@ -171,8 +171,6 @@ aside{
     /* Style specifies to display the tablet class */
     .tablet{
         display: block;
-        margin-top: -3em;
-        margin-bottom: -1em;
     }
     
     /* Style for image element contained within the main article element */
@@ -361,7 +359,7 @@ aside{
 
     /* Style specifies to display the desktop class */
     .desktop{
-        display: inline;
+        display: block;
     }
 
     /* Style specifies a display, float, and padding for the equip class */

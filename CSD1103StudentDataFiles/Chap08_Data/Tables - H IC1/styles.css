@@ -2,8 +2,8 @@
    Spotted Wren Garden Center style sheet 
    Filename: styles.css
 
-   Author:   
-   Date:     
+   Author: Asif Mahmud  
+   Date: 12.11.21
  */
 
 /* reset styles */
@@ -19,6 +19,17 @@ img {
    max-width: 100%;
    height: auto;
    width: auto;
+}
+
+table, thead, tbody, th, td{
+   border: 0;
+   padding: 0;
+   margin: 0;
+} 
+
+table{
+   border-collapse: collapse;
+   border-spacing: 0;
 }
 
 /* global styles */
@@ -117,12 +128,32 @@ figure {
    font-style: italic;
 }
 
+/* main content table */
+th, td{
+   border: 1px solid black;
+   padding: 0.5em;
+}
+
+th{
+   background-color: yellow;
+}
+
+.green{
+   background-color: #87f547;
+}
+
+.salmon{
+   background-color: #f5a88c;
+}
+
 /* footer section */
 footer {
    padding: 1% 1% 1% 5%;
    background-color: yellow;
    clear: both;
 }
+
+
 
 /* print styles */
 @media print {

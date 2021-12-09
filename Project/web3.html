@@ -23,41 +23,36 @@
 
                                                 <!-- Do not change the code above -->
 
-<link href="css/report.css" rel="stylesheet">     <!-- Modify myStyles.css to add additional styles or add your own stylesheet-->
+<link href="css/web3.css" rel="stylesheet">     <!-- Modify myStyles.css to add additional styles or add your own stylesheet-->
 <link rel="stylesheet" href="css/styles.css">
 <title>Drills</title>                             <!-- Modify title for your application -->
 
 <script>
 	$(document).ready(function() {
 		$('#container1').jtable({
-			title : 'Drill Listing',              <!-- Change title for the output -->
+			title : 'Customer Orders',              <!-- Change title for the output -->
 			paging : true,                      <!-- "true" allows paging through the grid -->
-			pageSize : 4,                      <!-- Specify page size -->
+			pageSize : 8,                      <!-- Specify page size -->
 			sorting : true,                     <!-- "true" allows sorting by columns -->
-			defaultSorting : 'product_id', <!-- Default sort column(s) on initial load -->
+			defaultSorting : 'name, order_total desc', <!-- Default sort column(s) on initial load -->
 			actions : {
-				listAction : 'genJson2.aspx?jtView=WEB1V'  <!-- Change "carsV1" to your view name -->
+				listAction : 'genJson2.aspx?jtView=WEB3V'  <!-- Change "carsV1" to your view name -->
 			},
 			fields : {                          <!-- Modify the grid components -->
-				product_id : {
-					title : 'Product ID',
+				name : {
+					title : 'Customer Name',
 					width : '20%',
 					list : true
 				},
-				product_name : {
-					title : 'Product Name',
+				order_id : {
+					title : 'Order ID',
 					width : '20%',
 					list : true
 				},
-				brand_name : {
-					title : 'Brand',
+				order_total : {
+					title : 'Order Total',
 					width : '10%',
 					list : true
-				},
-				model_name : {
-					title : 'Model',
-					width : '20%',
-					list : true,
 				}
 				/*cost_price : {
 					title : 'Cost price',
